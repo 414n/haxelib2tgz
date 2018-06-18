@@ -99,13 +99,6 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-#mkdir -p $PKG/usr/{bin,doc/$PRGNAM-$VERSION}
-#cp haxelib2tgz $PKG/usr/bin
-#chmod +x $PKG/usr/bin/haxelib2tgz
-
-#cp README LICENSE $PKG/usr/doc/$PRGNAM-$VERSION
-#cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
-
 mkdir -p $PKG/install
 
 # 1st line of slack desc
