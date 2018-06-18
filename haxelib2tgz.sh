@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash
 
 usage() {
 	cat << EOF
@@ -64,7 +64,6 @@ TAG=${TAG:-_SBo}
 
 PKGARCH=haxelib
 
-CWD=$(pwd)
 TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
